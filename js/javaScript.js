@@ -18,10 +18,7 @@ button.onclick = () =>{
         alert('Coloque todos os nomes!')
     }
     else{
-        loadingCircle.classList.add('visible')
         setTimeout(()=>{
-            loadingCircle.classList.remove('visible')
-            loadingCircle.classList.add('invisible')
             let compatibilyScore = `${Math.floor(Math.random()*100)+1}%`
             console.log(compatibilyScore, newP1, newP2)
             result.innerText =  `A compatiblidade entre ${newP1} e ${newP2} é de ${compatibilyScore}`
