@@ -123,25 +123,7 @@ img{
     animation-play-state: running;
 }
 
-#circle-animation.testeCarregamento{
-    border:#483D8B 5px solid;
-    border-top: 5px solid white;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    position: absolute;
-    top: 20%;
-    left: 50%;
-    animation: spin 2.6s linear infinite;
-    display: flex;
-    transition: 0.3s;
-}
 
-@keyframes is-rotating {
-    to {
-      transform: rotate(1turn);
-    }
-  }
 
   .footer {
     position: fixed;
